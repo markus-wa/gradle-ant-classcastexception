@@ -3,9 +3,7 @@
 ## How to reproduce
 
 1. `gradle build`
-
 2. Change `buildSrc/src/main/groovy/change_me_to_break_ant.groovy` (set `changeMeToBreakAnt` to 2 for example)
-
 3. `gradle build --stacktrace`
 
 ## Workaround
