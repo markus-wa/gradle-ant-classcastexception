@@ -1,0 +1,7 @@
+ant.importBuild('build.xml') { antTaskName ->
+	'a-' + antTaskName
+}
+
+task build {
+	dependsOn 'a-build'
+}

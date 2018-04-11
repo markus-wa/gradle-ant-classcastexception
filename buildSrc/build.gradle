@@ -1,0 +1,15 @@
+repositories {
+	jcenter()
+	mavenCentral()
+}
+
+dependencies {
+	compile (
+		gradleApi(),
+
+		[group: 'commons-configuration', name: 'commons-configuration', version: '1.10'],
+		[group: 'io.swagger', name: 'swagger-codegen', version: '2.3.1'],
+		[group: 'org.codehaus.groovy.modules.http-builder', name: 'http-builder', version: '0.6'],
+		[group: 'org.hidetake', name: 'gradle-ssh-plugin', version: '2.2.0']
+	)
+}
