@@ -14,6 +14,7 @@ Restart gradle daemon (`gradle --stop && gradle build`)
 
 ## Output
 
+```
 Parallel execution with configuration on demand is an incubating feature.
 :buildSrc:compileJava NO-SOURCE
 :buildSrc:compileGroovy UP-TO-DATE
@@ -159,3 +160,4 @@ Caused by: java.lang.ClassCastException: org.apache.xerces.parsers.XIncludeAware
 * Get more help at https://help.gradle.org
 
 BUILD FAILED in 2s
+```
